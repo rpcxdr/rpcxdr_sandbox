@@ -1,0 +1,16 @@
+{
+  "name": "rpcxdr_sandbox",
+  "version": "1.0.1",
+  "description": "",
+  "main": "app/index.js",
+  "scripts": {
+    "prepublish": "node node_modules/mocha/bin/mocha",
+    "test": "node node_modules/mocha/bin/mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.3.0"
+  }
+}
